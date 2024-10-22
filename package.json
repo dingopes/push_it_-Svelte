@@ -14,4 +14,9 @@
     "svelte": "^4.0.3",
     "vite": "^4.4.0"
   }
+  "scripts": {
+  "build": "vite build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
 }
