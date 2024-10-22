@@ -14,7 +14,7 @@ export default {
         }),
         paths: {
             base:
-                process.env.NODE_ENV === 'production' ? '/your-repo-name' : '',
+                process.env.NODE_ENV === 'production' ? '/push_it_-Svelte' : '',
         },
     },
 }
